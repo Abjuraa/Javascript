@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, #1d1d1d 25%, #443a40 50%, #5e4955 100%);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contador{
+    font-size: 60px;
+    padding-bottom: 100px;
+    color: beige;
+}
+span{
+    font-size: 150px;
+    padding-bottom: 80px;
+    color: bisque;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+.div button{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: black;    
+    transition: ease 0.5s;
+    border-style: none;
+
+}
+
+button:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: ease 0.5s;
+}
