@@ -39,4 +39,4 @@ function alturaTriangulo(lados, base){
     }
 }
 
-console.log(`La altura del triangulo isosceles es de: `, alturaTriangulo(6,6))
+    console.log(`La altura del triangulo isosceles es de: `, alturaTriangulo(6,6))
