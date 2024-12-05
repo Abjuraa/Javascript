@@ -185,3 +185,37 @@ min = 10
 max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1) + min))
+
+function procesarPedido(pedidos) {
+    const array = pedidos
+    const cliente = array.shift([0])
+    array.unshift("bebidas")
+    array.push(cliente)
+
+    console.log(array)
+
+}
+
+procesarPedido(["Abjura", "cocacola", "pepsi"])
+
+const autos = ["BMW", "Mercedes", "Audi", "Honda"]
+
+for (let i = 0; i < autos.length; i++) {
+    console.log("Bucle for: " +autos[i])
+}
+
+for (moviles of autos) {
+    console.log("for of: " +  moviles)
+}
+
+const objetos = {
+    nombre: "Bryam",
+    apellido: "Castañeda",
+    edad: 20,
+    altura: 1.68,
+    peso: 52
+}
+
+for (propiedades in objetos){
+    console.log(propiedades + " " + objetos[propiedades])
+}
